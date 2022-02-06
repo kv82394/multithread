@@ -1,1 +1,3 @@
-# multithread
+->in one process there might be a multiple thread.
+->if thread are derived from same code then process id is same for all thread.
+->if we create a process and fork() it then process id will be different for all but if create a multiple thread then process id will same for all.
